@@ -21,5 +21,5 @@ describe('cat names API',function(){
     api.post('/catnames')
     .send({name: 'my awesome new cat name'})
     .expect(200,done)
-  })
+  });
 })
